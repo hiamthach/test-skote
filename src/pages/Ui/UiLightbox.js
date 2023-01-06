@@ -14,7 +14,6 @@ import {
   Container,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import { Map, InfoWindow, GoogleApiWrapper } from "google-maps-react"
 import { connect } from "react-redux";
 
 //Lightbox
@@ -349,25 +348,7 @@ const UiLightbox = (props) => {
                         <ModalHeader toggle={tog_map}>
                           Google Map
                         </ModalHeader>
-                        <ModalBody>
-                          <div
-                            id="gmaps-markers"
-                            className="gmaps"
-                            style={{ position: "relative" }}
-                          >
-                            <Map
-                              google={props.google}
-                              zoom={14}
-                              style={{ width: "100%", height: "100%" }}
-                            >
-                              <InfoWindow>
-                                <div>
-                                  <h1>{selectedPlace.name}</h1>
-                                </div>
-                              </InfoWindow>
-                            </Map>
-                          </div>
-                        </ModalBody>
+                        
                       </Modal>
                     </Col>
                   </Row>

@@ -93,11 +93,6 @@ import SparklineChart from "../pages/Charts/SparklineChart"
 import ChartsKnob from "../pages/Charts/charts-knob"
 import ReCharts from "../pages/Charts/ReCharts"
 
-// Maps
-import MapsGoogle from "../pages/Maps/MapsGoogle"
-import MapsVector from "../pages/Maps/MapsVector"
-import MapsLeaflet from "../pages/Maps/MapsLeaflet"
-
 //Icons
 import IconBoxicons from "../pages/Icons/IconBoxicons"
 import IconDripicons from "../pages/Icons/IconDripicons"
@@ -276,11 +271,6 @@ const authProtectedRoutes = [
   { path: "/tables-responsive", component: ResponsiveTables },
   { path: "/tables-editable", component: EditableTables },
   { path: "/tables-dragndrop", component: DragDropTables },
-
-  // Maps
-  { path: "/maps-google", component: MapsGoogle },
-  { path: "/maps-vector", component: MapsVector },
-  { path: "/maps-leaflet", component: MapsLeaflet },
 
   // Forms
   { path: "/form-elements", component: FormElements },
