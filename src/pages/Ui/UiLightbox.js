@@ -460,10 +460,4 @@ const UiLightbox = (props) => {
 export default connect(
   null,
   {}
-)(
-  GoogleApiWrapper({
-    apiKey: "AIzaSyAbvyBxmMbFhrzP9Z8moyYr6dCr-pzjhBE",
-    LoadingContainer: LoadingContainer,
-    v: "3",
-  })(UiLightbox)
 )
